@@ -30,7 +30,9 @@ namespace Calculator
             float div = num1 / num2;
             Console.WriteLine("Division of {0} & {1} is: {2} ", num1, num2,div);
 
-        }
+            //remainder
+            int rem = num1 % num2;
+            Console.WriteLine("Remainder of {0} & {1} is: {2} ", num1, num2, rem);      }
 
     }
 }
